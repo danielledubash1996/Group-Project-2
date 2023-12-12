@@ -32,7 +32,7 @@ CREATE TABLE "Campaign" (
     "cf_id" INTEGER   NOT NULL,
     "contact_id" INTEGER   NOT NULL,
     "company_name" VARCHAR(50)   NOT NULL,
-    "description" VARCHAR(50)   NOT NULL,
+    "description" VARCHAR(250)   NOT NULL,
     "goal" INTEGER   NOT NULL,
     "pledged" INTEGER   NOT NULL,
     "outcome" VARCHAR(50)   NOT NULL,
